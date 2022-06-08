@@ -1,0 +1,139 @@
+.skillset{
+    display: grid; 
+    text-align: center; 
+    width: 100%; 
+    grid-template-columns: repeat(4,1fr); 
+    padding: 2rem;
+    gap: 40px;
+} 
+.skill-main {
+    display: flex; 
+    padding: 2rem; 
+    flex-direction: column; 
+    justify-content: center; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.skillset-container {
+    height: 33vh;
+    transition-duration: 500ms; 
+    padding: 1.2rem;
+    box-shadow: 0 4px 6px -1px rgba(51, 84, 121, 0.121), 0 2px 4px -1px rgba(92, 149, 215, 0.212); 
+}
+
+.skillset-container:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+    }
+
+.skill-image {
+    width: 90px;
+    height: 90px;
+}
+
+.Skill-title {
+    padding-top: 2rem;
+  
+}
+/* .skill-container {
+    width: 100%;
+    height: 20vh;
+    margin-left: 2rem;
+} */
+
+.skill-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+    display: inline; 
+    font-weight: 700; 
+    /* padding-left: 2rem; */
+    border-bottom: 5px solid rgb(248, 217, 15);;
+    border-spacing: 15px;   
+}
+
+.skill-desc {
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    
+}
+
+/* .exprience-container {
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    height: 100%; 
+} */
+
+.exprience-title {
+    font-size: 2.2rem;
+    line-height: 2.5rem; 
+    display: inline; 
+    font-weight: 700; 
+    /* padding-left: 2rem; */
+    border-bottom: 5px solid rgb(248, 217, 15);;
+    border-spacing: 15px;  
+}
+
+.exprience-desc {
+    display: grid; 
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    padding: 3rem;
+    width: 100%;
+    
+}
+
+.exprience-summ {
+    font-size: 2.2rem;
+line-height: 2.5rem; 
+font-weight: 500; 
+text-align: center;
+
+}
+
+.exp-resume {
+text-align: left;
+font-size: 1.2rem;
+}
+
+.resume {
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+    .skillset {
+        display: grid; 
+        text-align: center; 
+        width: 100%; 
+        grid-template-columns: repeat(3,1fr); 
+        padding: 2rem;
+        gap: 40px;
+    }
+
+    
+.skill-image {
+    width: 30px;
+    height: 30px;
+}
+
+.skillset-container {
+    height: 20vh;
+}
+
+.exprience-title {
+    font-size: 2rem;
+}
+.exprience-summ p {
+    font-size: 1.3rem;
+    line-height: 1.7rem; 
+font-weight: 500; 
+text-align: center;
+}
+.exp-resume {
+    padding-left: 2rem;
+    font-size: 1.05rem;
+    line-height: 1.2rem; 
+}
+}

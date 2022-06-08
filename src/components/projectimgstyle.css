@@ -1,0 +1,138 @@
+.heading{
+    width: 100%;
+    height: 60vh;
+    background: #0a192f;
+    position: relative;
+}
+.headintro-bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.heading::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0a192f; 
+    opacity: 0.8;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+}
+
+.heading .procontent {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    
+}
+
+.heading .procontent h1 {
+    font-size: 2rem;
+    /* padding: 0.3rem 0 1rem; */
+    padding-bottom: 2px;
+    color: white;
+}
+
+.heading .procontent p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 640px) {
+    .heading .procontent h1 {
+        font-size: 1.3rem;
+    }
+    
+    .heading .procontent p {
+        font-size: 1.2rem;
+    }
+}
+
+.prolist{
+    width: 1140px;
+    margin: auto;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+
+.project-card {
+    background: #11233d;
+    padding: 1.2rem 1rem;
+    width: 350px;
+    height: 250px;
+}
+
+.project-card img {
+    width: 100%;
+}
+
+
+.project-title {
+    color: aliceblue;
+    padding: 1rem 0;
+}
+
+.pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.heading .project-head {
+    color: aliceblue;
+}
+
+.work-container {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.work-container:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  /* .project-intro {
+    padding: 2rem;
+  } */
+
+  .intro-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem; 
+    display: inline; 
+    font-weight: 700; 
+    /* padding-left: 2rem; */
+    border-bottom: 5px solid rgb(248, 217, 15);;
+    border-spacing: 15px;   
+}
+
+.intro-desc {
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    
+}
+
+
+@media screen and (max-width: 740px) {
+    .prolist {
+        max-width: 50%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
