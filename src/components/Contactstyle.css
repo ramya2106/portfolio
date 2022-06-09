@@ -93,7 +93,7 @@ form input {
     margin-top: 0.5rem;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     .heading .contacts {
       margin-top: 3rem;
       align-items: center;

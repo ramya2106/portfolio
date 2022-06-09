@@ -17,6 +17,9 @@ const Contactdetails = () => {
       }, (error) => {
           console.log(error.text);
       });
+
+     // 👇️ clear all input values in the form
+     e.target.reset();
   };
   const mystyle = {
     display: "flex",
