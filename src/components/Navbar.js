@@ -24,7 +24,7 @@ function Navbar() {
         </Link>
         <ul className={click ? 'list-items active': 'list-items'}>
             <li>
-                <Link to = '/portfolio'>
+                <Link to = '/'>
                 Home 
                 </Link>
             </li>
