@@ -28,8 +28,8 @@ const Projectapi = [
     {
         title : 'Country details fetching App',
         img : CountryApp,
-        url : 'https://ramya2106.github.io/quizapp/',
-        source : 'https://github.com/ramya2106/quizapp'
+        url : 'https://ramya2106.github.io/country_app/',
+        source : 'https://github.com/ramya2106/country_app'
     },
     {
         title : 'ToDo List App',

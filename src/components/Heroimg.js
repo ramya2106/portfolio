@@ -10,8 +10,8 @@ const Heroimg = () => {
             <img className="Intro-bg" src={Introbg} alt="Introimg"/>
         </div>
         <div className='content'>
-            <p>Hi, I'm a Full Stack developer</p>
-            <h1>React Developer</h1>
+            <p>Hi, I'm a PHP and Moodle developer</p>
+            <h1>Front-end web Developer</h1>
             <div className='button'>
                 <Link to = '/projects' className='btn'>
                     Projects
